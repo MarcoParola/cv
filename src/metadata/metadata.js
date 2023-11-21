@@ -2,7 +2,8 @@ module.exports = {
   name: 'Marco Parola',
   title: 'Ph.D candidate',
   facts: {
-    'Twitter': `<a href="https://github.com/MarcoParola"><i class="fa-brands fa-github fact-icon"></i>Shakespeare</a>`,
+    'GitHub': `<a href="https://github.com/MarcoParola"><i class="fa-brands fa-github fact-icon"></i></a>`,
+    'Stack Overflow': `<a href="https://stackoverflow.com/users/22515567/marco-parola"><i class="fa-brands fa-stack-overflow fact-icon"></i></a>`,
     'Email': '<a href="mailto:marco.parola@ing.unipi.it"><i class="fa fa-envelope fact-icon"></i>marco.parola@ing.unipi.it</a>'
   },
   skills: [
