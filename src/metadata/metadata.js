@@ -2,9 +2,10 @@ module.exports = {
   name: 'Marco Parola',
   title: 'Ph.D candidate',
   facts: {
-    'GitHub': `<a href="https://github.com/MarcoParola"><i class="fa-brands fa-github fact-icon"></i></a>`,
-    'Stack Overflow': `<a href="https://stackoverflow.com/users/22515567/marco-parola"><i class="fa-brands fa-stack-overflow fact-icon"></i></a>`,
-    'Email': '<a href="mailto:marco.parola@ing.unipi.it"><i class="fa fa-envelope fact-icon"></i>marco.parola@ing.unipi.it</a>'
+    'Linkedin': `<a href="https://www.linkedin.com/in/marco-parola-5269a1121/"><i class="fa-brands fa-linkedin fact-icon" style="color: #373737;"></i></a>`,
+    'GitHub': `<a href="https://github.com/MarcoParola"><i class="fa-brands fa-github fact-icon" style="color: #373737;"></i></a>`,
+    'Stack Overflow': `<a href="https://stackoverflow.com/users/22515567/marco-parola"><i class="fa-brands fa-stack-overflow fact-icon" style="color: #373737;"></i></a>`,
+    'Email': '<a href="mailto:marco.parola@ing.unipi.it"><i class="fa fa-envelope fact-icon" style="color: #373737;"></i></a>'
   },
   skills: [
     ['Comedy', 100],
@@ -44,6 +45,23 @@ Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebast
       contents: `
 In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
 `
+    }
+  ],
+  education: [
+    {
+      title: 'Ph.D.',
+      period: '01/11/2022 - present',
+      contents: 'Ph.D. in Information Engineering enrolled in the XXXVIII cycle of the PhD in Information Engineering at University of Pisa. (in progress)'
+    },
+    {
+      title: 'Master degree',
+      period: '15/10/2019 - 18/02/2022',
+      contents: 'Master degree in Artificial Intelligence and Data Engineering at University of Pisa. Mark: 110/110'
+    },
+    {
+      title: 'The Tragedy of Romeo and Juliet',
+      period: '08/11/2015 - 14/10/2019',
+      contents: 'Bachelor degree in Computer Engineering at University of Pisa. Mark: 97/110'
     }
   ],
   experience: [
