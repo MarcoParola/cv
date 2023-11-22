@@ -1,50 +1,56 @@
 module.exports = {
   name: 'Marco Parola',
-  title: 'Ph.D candidate',
+  title: 'Ph.D. candidate',
   facts: {
     'Linkedin': `<a href="https://www.linkedin.com/in/marco-parola-5269a1121/"><i class="fa-brands fa-linkedin fact-icon" style="color: #373737;"></i></a>`,
+    'Telegram': `<a href="https://telegram.me/parola_marco"><i class="fa-brands fa-telegram fact-icon" style="color: #373737;"></i></a>`,
     'GitHub': `<a href="https://github.com/MarcoParola"><i class="fa-brands fa-github fact-icon" style="color: #373737;"></i></a>`,
     'Stack Overflow': `<a href="https://stackoverflow.com/users/22515567/marco-parola"><i class="fa-brands fa-stack-overflow fact-icon" style="color: #373737;"></i></a>`,
     'Email': '<a href="mailto:marco.parola@ing.unipi.it"><i class="fa fa-envelope fact-icon" style="color: #373737;"></i></a>'
   },
   skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 75],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 75],
-    ['Literature', 100],
-    ['Influence', 100],
+    ['Python', 100],
+    ['Deep learning', 100],
+    ['Computer vision', 100],
+    ['XAI', 100],
+    ['Machine learning', 100],
+    ['Data engineering', 100],
+    ['Linux', 100],
+    ['Git', 100],
+    ['Backend', 75],
+    ['Frontend', 75],
+    ['Web', 75],
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      title: 'Ph.D. candidate',
+      period: '01/11/2022-present',
+      skills: ['Deep Learning', 'XAI', 'Medical Imaging', 'Computer Vision'],
+      contents: 'Ph.D. candidate enrolled in  Information Engineering phd program at University of Pisa'
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
-      contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+      title: 'Research fellow',
+      period: '01/05/2022-31/10/2022 ',
+      skills: ['Deep Learning', 'XAI', 'Medical Imaging', 'Computer Vision'],
+      contents: 'Research fellow on "Decision support systems with explainable models for diagnosis and prognosis based on medical images" funded by MUR-PRIN REASONIG 2020 project, supervisors Prof. Gigliola Vaglini and Prof. Mario GCA Cimino; at University of Pisa.'
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+      title: 'Machine learning engineer',
+      period: '15/10/2021-30/04/2022',
+      skills: ['Python', 'Flask', 'MongoDB', 'Signal processing', 'Sensors'],
+      contents: 'Machine learning engineer at  <a href="https://www.movesolutions.it">Move Solutions</a> - Move S.r.l., Lucca. Part time. I developed microservices to be integrated into the Move Solutions platform architecture to provide ML analysis on sensor signals.'
+    },
+    {
+      title: 'Software developer ',
+      period: '01/09/2019-15/06/2021',
+      skills: ['.NET', 'ASP.NET', 'MSSQL', 'C#', 'web'],
+      contents: 'Software developer at <a href="https://www.5space.it">5Space</a> S.n.c., Livorno. I worked part-time on OptGear project, a web application to perform optimization calculations for mechanical gears, which finds the best combination of gear parameters.'
+    },
+    {
+      title: 'Software developer intern',
+      period: '30/07/2018-31/01/2019',
+      skills: ['.NET', 'ASP.NET', 'MSSQL', 'C#', 'web'],
+      contents: 'Software developer at <a href="https://www.archa.it">Labortori Archa</a> S.r.l., Pisa. Internship. Implementation of LIMS (Laboratory Information Management System) using Microsoft technology stack.'
     }
   ],
   education: [
@@ -59,7 +65,7 @@ In Verona, Italy, two families, the Montagues and the Capulets, are in the midst
       contents: 'Master degree in Artificial Intelligence and Data Engineering at University of Pisa. Mark: 110/110'
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
+      title: 'Bachelor degree',
       period: '08/11/2015 - 14/10/2019',
       contents: 'Bachelor degree in Computer Engineering at University of Pisa. Mark: 97/110'
     }
