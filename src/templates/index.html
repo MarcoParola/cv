@@ -118,20 +118,27 @@
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Publications</h2>
+
         {{#each publication}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
+            
             <div class="col-md-2 pt-1">
-                {{ type }} {{ year}}
+                {{ type }} <br> {{ year}}
             </div>
             <div class="col-md-10">
 
                 <div>{{{markdown contents }}}</div>
-                {{#if git}}
+                {{#if code}}
                 <p>
-                    <a href="{{ git }}" class="text-nowrap"><i class="fab fa-github" aria-hidden="true"></i> {{ git }}</a>
+                    <a href="{{ code }}" class="text-nowrap"><i class="fab fa-github" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i>source code</a>
                 </p>
                 {{/if}}
 
+                {{#if data}}
+                <p>
+                    <a href="{{ data }}" class="text-nowrap"><i class="fab fa-database" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i>data</a>
+                </p>
+                {{/if}}
                 <p>
                     {{#each skills }}
                     <span class="badge text-body border border-1">{{ this }}</span>
