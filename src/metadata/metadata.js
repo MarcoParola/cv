@@ -10,11 +10,11 @@ module.exports = {
   },
   skills: [
     ['Python', 100],
-    ['Deep learning', 100],
-    ['Computer vision', 100],
+    ['DL', 100],
+    ['OpenCV', 100],
     ['XAI', 100],
-    ['Machine learning', 100],
-    ['Data engineering', 100],
+    ['ML', 100],
+    ['Data', 100],
     ['Linux', 100],
     ['Git', 100],
     ['Backend', 75],
@@ -38,19 +38,19 @@ module.exports = {
       title: 'Machine learning engineer',
       period: '15/10/2021-30/04/2022',
       skills: ['Python', 'Flask', 'MongoDB', 'Signal processing', 'Sensors'],
-      contents: 'Machine learning engineer at  <a href="https://www.movesolutions.it">Move Solutions</a> - Move S.r.l., Lucca. Part time. I developed microservices to be integrated into the Move Solutions platform architecture to provide ML analysis on sensor signals.'
+      contents: 'Machine learning engineer at <a href="https://www.movesolutions.it">Move Solutions</a> - Move S.r.l., Lucca. Part time. I developed microservices to be integrated into the Move Solutions platform architecture to provide ML analysis on sensor signals.'
     },
     {
       title: 'Software developer ',
       period: '01/09/2019-15/06/2021',
       skills: ['.NET', 'ASP.NET', 'MSSQL', 'C#', 'web'],
-      contents: 'Software developer at <a href="https://www.5space.it">5Space</a> S.n.c., Livorno. I worked part-time on OptGear project, a web application to perform optimization calculations for mechanical gears, which finds the best combination of gear parameters.'
+      contents: 'Software developer at (5Space)[https://www.5space.it] S.n.c., Livorno. I worked part-time on OptGear project, a web application to perform optimization calculations for mechanical gears, which finds the best combination of gear parameters.'
     },
     {
       title: 'Software developer intern',
       period: '30/07/2018-31/01/2019',
       skills: ['.NET', 'ASP.NET', 'MSSQL', 'C#', 'web'],
-      contents: 'Software developer at <a href="https://www.archa.it">Labortori Archa</a> S.r.l., Pisa. Internship. Implementation of LIMS (Laboratory Information Management System) using Microsoft technology stack.'
+      contents: 'Software developer at [Labortori Archa](https://www.archa.it) S.r.l., Pisa. Internship. Implementation of LIMS (Laboratory Information Management System) using Microsoft technology stack.'
     }
   ],
   education: [
@@ -70,20 +70,12 @@ module.exports = {
       contents: 'Bachelor degree in Computer Engineering at University of Pisa. Mark: 97/110'
     }
   ],
-  experience: [
+  publication: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
-    },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
-`
+      type: 'C',
+      year: '2022',
+      skills: ['Stuctural Health Monitoring', 'Deep Leraning', 'Sensors', 'Digital Twin'],
+      contents: 'Parola, M.; Galatolo, F.; Torzoni, M.; Cimino, M. and Vaglini, G. (2022). Structural Damage Localization via Deep Learning and IoT Enabled Digital Twin. In Proceedings of the 3rd International Conference on Deep Learning Theory and Applications - DeLTA; ISBN 978-989-758-584-5; ISSN 2184-9277, SciTePress, pages 199-206. DOI: 10.5220/0011320600003277'
     }
   ]
 };
