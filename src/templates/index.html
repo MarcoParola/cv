@@ -130,6 +130,8 @@
                 <p>
                     <a href="{{ git }}" class="text-nowrap"><i class="fab fa-github" aria-hidden="true"></i> {{ git }}</a>
                 </p>
+                {{/if}}
+
                 <p>
                     {{#each skills }}
                     <span class="badge text-body border border-1">{{ this }}</span>
@@ -140,25 +142,5 @@
         {{/each}}
     </div>
 
-
-    <!--
-    <h2 class="mb-4">Publications</h2>
-    {{#each publication}}
-    <div class="mb-4">
-        <h3 class="fs-4 fw-normal">{{ header }}</h3>
-        {{{markdown contents }}}
-
-        {{#if git}}
-        <p>
-            <a href="{{ git }}" class="text-nowrap"><i class="fab fa-github" aria-hidden="true"></i> {{ git }}</a>
-
-        <div>
-            {{#each skills }}
-            <span class="badge text-body border border-1">{{ this }}</span>
-            {{/each}}
-        </div>
-    </div>
-    {{/each}}
-</div>-->
 </body>
 </html>

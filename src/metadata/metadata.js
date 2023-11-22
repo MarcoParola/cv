@@ -74,6 +74,7 @@ module.exports = {
     {
       type: 'C',
       year: '2022',
+      git: 'https://github.com/MarcoParola/structural_health_monitoring',
       skills: ['Stuctural Health Monitoring', 'Deep Leraning', 'Sensors', 'Digital Twin'],
       contents: 'Parola, M.; Galatolo, F.; Torzoni, M.; Cimino, M. and Vaglini, G. (2022). Structural Damage Localization via Deep Learning and IoT Enabled Digital Twin. In Proceedings of the 3rd International Conference on Deep Learning Theory and Applications - DeLTA; ISBN 978-989-758-584-5; ISSN 2184-9277, SciTePress, pages 199-206. DOI: 10.5220/0011320600003277'
     }
