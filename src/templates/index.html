@@ -43,7 +43,7 @@
             </div>
             <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
                 <ul class="list-group list-group-flush">
-                    {{#each facts}}
+                    {{#each links}}
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                         <span class="text-nowrap">{{ @key }}</span>
                         <span class="text-nowrap">{{{ this }}}</span>
@@ -55,7 +55,7 @@
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        PhD student enrolled in the Information Engineering course at the University of Pisa (Italy). Professional interest areas include research in the fields of deep learning, computer vision and explainable artificial intelligence. Great enthusiasm for open source and open data principles: actively contributing to the Stack Overflow community and GitHub.
+        Ph.D. student enrolled in the Information Engineering course at the University of Pisa (Italy). Specialised in advanced deep learning architectures, computer vision and explainable artificial intelligence. I am enthusiastic about open source and open data principles, actively participate in the Stack Overflow community and contribute to GitHub projects. Full stack development skills on main deployment platforms developed during experiences in the enterprise environment.
     </div>
 
 
@@ -131,12 +131,12 @@
                 {{#if code}}
                 <p>
                     <a href="{{ code }}" class="text-nowrap"><i class="fab fa-github" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i>source code</a>
-                </p>
+                
                 {{/if}}
 
                 {{#if data}}
-                <p>
-                    <a href="{{ data }}" class="text-nowrap"><i class="fab fa-database" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i>data</a>
+                
+                    <a href="{{ data }}" class="text-nowrap"><i class="fas fa-database" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i>data</a>
                 </p>
                 {{/if}}
                 <p>
