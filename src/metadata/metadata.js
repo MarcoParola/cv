@@ -84,7 +84,7 @@ module.exports = {
   ],
   publication: [
     {
-      type: 'C',
+      type: 'Conf',
       year: '2023',
       code: 'https://github.com/MarcoParola/detection_framework',
       skills: ['Object Detection', 'Medical Imaging', 'Deep Leraning', 'Ensemble Learning', 'Oral Cancer'],
@@ -92,7 +92,7 @@ module.exports = {
       full_text: 'https://www.researchgate.net/profile/Marco-Parola/publication/374589025_Image-based_screening_of_oral_cancer_via_deep_ensemble_architecture/links/652656c9b1c2fe1212c44cd9/Image-based-screening-of-oral-cancer-via-deep-ensemble-architecture.pdf'
     },
     {
-      type: 'C',
+      type: 'Conf',
       year: '2023',
       code: 'https://github.com/GiadaSimionato/HDHSim',
       skills: ['Drone', 'Swarm Intelligence', 'Hole Detection'],
