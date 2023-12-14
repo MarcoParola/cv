@@ -130,13 +130,19 @@
                 <div>{{{markdown contents }}}</div>
                 {{#if code}}
                 <p>
-                    <a href="{{ code }}" class="text-nowrap"><i class="fab fa-github" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i>source code</a>
+                    <a href="{{ code }}" class="text-nowrap"><i class="fab fa-github" title="source code" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i></a>
                 
                 {{/if}}
 
                 {{#if data}}
                 
-                    <a href="{{ data }}" class="text-nowrap"><i class="fas fa-database" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i>data</a>
+                    <a href="{{ data }}" class="text-nowrap"><i class="fas fa-database" title="data" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i></a>
+                </p>
+                {{/if}}
+
+                {{#if full_text}}
+                
+                    <a href="{{ full_text }}" class="text-nowrap"><i class="fa-brands fa-readme" title="full text" style="color: #373737; font-size: 1.5em;" aria-hidden="true"></i></a>
                 </p>
                 {{/if}}
                 <p>

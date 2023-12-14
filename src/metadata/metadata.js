@@ -29,6 +29,12 @@ module.exports = {
   ],
   positions: [
     {
+      title: 'Visiting Ph.D.',
+      period: '01/01/2024 - 31/08/2024',
+      skills: ['Deep Learning', 'Thermal image', 'Computer Vision', 'Conditioning'],
+      contents: 'Visiting Ph.D. student at [Aalborg University](https://www.en.aau.dk/).'
+    },
+    {
       title: 'Ph.D. candidate',
       period: '01/11/2022 - present',
       skills: ['Deep Learning', 'XAI', 'Medical Imaging', 'Computer Vision'],
@@ -82,7 +88,8 @@ module.exports = {
       year: '2023',
       code: 'https://github.com/MarcoParola/detection_framework',
       skills: ['Object Detection', 'Medical Imaging', 'Deep Leraning', 'Ensemble Learning', 'Oral Cancer'],
-      contents: '**Parola, M.**, La Mantia, G., Galatolo, F., Cimino, M.G., Campisi, G., Di Fede, O., 2023. **Image-based screening of oral cancer via deep ensemble architecture**, in: 2023 IEEE Symposium Series on Computational Intelligence (SSCI), IEEE. pp. 1570–1576. doi:10.13140/RG.2.2.24070.34880'
+      contents: '**Parola, M.**, La Mantia, G., Galatolo, F., Cimino, M.G., Campisi, G., Di Fede, O., 2023. **Image-based screening of oral cancer via deep ensemble architecture**, in: 2023 IEEE Symposium Series on Computational Intelligence (SSCI), IEEE. pp. 1570–1576. doi:10.13140/RG.2.2.24070.34880',
+      full_text: 'https://www.researchgate.net/profile/Marco-Parola/publication/374589025_Image-based_screening_of_oral_cancer_via_deep_ensemble_architecture/links/652656c9b1c2fe1212c44cd9/Image-based-screening-of-oral-cancer-via-deep-ensemble-architecture.pdf'
     },
     {
       type: 'C',
@@ -92,40 +99,45 @@ module.exports = {
       contents: 'Simionato, G.; **Parola, M.**; and Cimino, M.; (2023). **Impressionist Hole Detection and Healing Using Swarms of Agents with Quantized Perception**. In Proceedings of 2023 IEEE Symposium Series on Computational Intelligence. (2023).'
     },
     {
-      type: 'C',
+      type: 'Conf',
       year: '2023',
       code: 'https://github.com/MarcoParola/torre-clima',
       skills: ['Regression', 'Stuctural Health Monitoring', 'Deep Leraning', 'Sensors', 'Tower of Pisa'],
-      contents: '**Parola, M.**; Dirrhami, H.; Cimino, M. and Squeglia, N. (2023). **Effects of Environmental Conditions on Historic Buildings: Interpretable Versus Accurate Exploratory Data Analysis**. In Proceedings of the 12th International Conference on Data Science, Technology and Applications - DATA; ISBN 978-989-758-664-4; ISSN 2184-285X, SciTePress, pages 429-435. DOI: 10.5220/0012119700003541'
+      contents: '**Parola, M.**; Dirrhami, H.; Cimino, M. and Squeglia, N. (2023). **Effects of Environmental Conditions on Historic Buildings: Interpretable Versus Accurate Exploratory Data Analysis**. In Proceedings of the 12th International Conference on Data Science, Technology and Applications - DATA; ISBN 978-989-758-664-4; ISSN 2184-285X, SciTePress, pages 429-435. DOI: 10.5220/0012119700003541',
+      full_text: 'https://www.scitepress.org/PublicationsDetail.aspx?ID=9NdCzCTVPKA=&t=1'
     },
     {
-      type: 'O',
+      type: 'Book chap',
       year: '2022',
       code: 'https://github.com/MarcoParola/structural_health_monitoring',
       data: 'http://131.114.50.176/owncloud/s/TZ1G53X18PevT1b/download',
       skills: ['Stuctural Health Monitoring', 'Deep Leraning', 'Sensors', 'Digital Twin'],
-      contents: '**Parola, M.**; Galatolo, F.; Torzoni, M. and Cimino, M. (2022). **Convolutional Neural Networks for Structural Damage Localization on Digital Twins**. In International Conference on Deep Learning Theory and Applications (pp. 78-97). Cham: Springer Nature Switzerland.'
+      contents: '**Parola, M.**; Galatolo, F.; Torzoni, M. and Cimino, M. (2022). **Convolutional Neural Networks for Structural Damage Localization on Digital Twins**. In International Conference on Deep Learning Theory and Applications (pp. 78-97). Cham: Springer Nature Switzerland.',
+      full_text: "https://link.springer.com/chapter/10.1007/978-3-031-37317-6_5"
     },
     {
-      type: 'C',
+      type: 'Conf',
       year: '2022',
       code: 'https://github.com/galatolofederico/torre-transformer',
       skills: ['Stuctural Health Monitoring', 'Deep Leraning', 'Sensors', 'Tower of Pisa'],
-      contents: 'Cimino, M.; Galatolo, F.; **Parola, M.**; Perilli, N. and Squeglia, N. (2022). **Deep Learning of Structural Changes in Historical Buildings: The Case Study of the Pisa Tower**. In Proceedings of the 14th International Joint Conference on Computational Intelligence (IJCCI 2022) - NCTA; ISBN 978-989-758-611-8; ISSN 2184-3236, SciTePress, pages 396-403. DOI: 10.5220/0011551800003332'
+      contents: 'Cimino, M.; Galatolo, F.; **Parola, M.**; Perilli, N. and Squeglia, N. (2022). **Deep Learning of Structural Changes in Historical Buildings: The Case Study of the Pisa Tower**. In Proceedings of the 14th International Joint Conference on Computational Intelligence (IJCCI 2022) - NCTA; ISBN 978-989-758-611-8; ISSN 2184-3236, SciTePress, pages 396-403. DOI: 10.5220/0011551800003332',
+      full_text: "http://docenti.ing.unipi.it/m.cimino/pub/hdl.handle.net_11568_1151401.pdf"
     },
     {
-      type: 'C',
+      type: 'Conf',
       year: '2022',
       code: 'https://github.com/MarcoParola/structural_health_monitoring',
       data: 'http://131.114.50.176/owncloud/s/TZ1G53X18PevT1b/download',
       skills: ['Stuctural Health Monitoring', 'Deep Leraning', 'Sensors', 'Digital Twin'],
-      contents: '**Parola, M.**; Galatolo, F.; Torzoni, M.; Cimino, M. and Vaglini, G. (2022). **Structural Damage Localization via Deep Learning and IoT Enabled Digital Twin**. In Proceedings of the 3rd International Conference on Deep Learning Theory and Applications - DeLTA; ISBN 978-989-758-584-5; ISSN 2184-9277, SciTePress, pages 199-206. DOI: 10.5220/0011320600003277'
+      contents: '**Parola, M.**; Galatolo, F.; Torzoni, M.; Cimino, M. and Vaglini, G. (2022). **Structural Damage Localization via Deep Learning and IoT Enabled Digital Twin**. In Proceedings of the 3rd International Conference on Deep Learning Theory and Applications - DeLTA; ISBN 978-989-758-584-5; ISSN 2184-9277, SciTePress, pages 199-206. DOI: 10.5220/0011320600003277',
+      full_text: "http://docenti.ing.unipi.it/m.cimino/pub/hdl.handle.net_11568_1151380.pdf"
     },
     {
-      type: 'O',
+      type: 'Preprint',
       year: '2021',
       skills: ['Information Retrieval', 'Computer Vision', 'Deep Leraning'],
-      contents: '**Parola, M.**, Nannini, A., & Poleggi, S. (2021). **Web image search engine based on LSH index and CNN Resnet50**. arXiv preprint arXiv:2108.13301.'
+      contents: '**Parola, M.**, Nannini, A., & Poleggi, S. (2021). **Web image search engine based on LSH index and CNN Resnet50**. arXiv preprint arXiv:2108.13301.',
+      full_text: "https://arxiv.org/abs/2108.13301"
     }
   ]
 };
