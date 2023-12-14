@@ -9,7 +9,7 @@ You are a fantastic developer. Keep your CV on GitHub. Host it on GitHub Pages. 
 
 Demo: [http://sneas.github.io/cv-template](http://sneas.github.io/cv-template).
 
-Real world example: [http://sneas.github.io/cv](http://sneas.github.io/cv).
+Real world example: [http://marcoparola.github.io/cv](https://marcoparola.github.io/cv/).
 
 ## Motivation
 
