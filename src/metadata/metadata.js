@@ -88,15 +88,16 @@ module.exports = {
       year: '2023',
       code: 'https://github.com/MarcoParola/detection_framework',
       skills: ['Object Detection', 'Medical Imaging', 'Deep Leraning', 'Ensemble Learning', 'Oral Cancer'],
-      contents: '**Parola, M.**, La Mantia, G., Galatolo, F., Cimino, M.G., Campisi, G., Di Fede, O., 2023. **Image-based screening of oral cancer via deep ensemble architecture**, in: 2023 IEEE Symposium Series on Computational Intelligence (SSCI), IEEE. pp. 1570–1576. doi:10.13140/RG.2.2.24070.34880',
-      full_text: 'https://www.researchgate.net/profile/Marco-Parola/publication/374589025_Image-based_screening_of_oral_cancer_via_deep_ensemble_architecture/links/652656c9b1c2fe1212c44cd9/Image-based-screening-of-oral-cancer-via-deep-ensemble-architecture.pdf'
+      contents: '**Parola, M.**, La Mantia, G., Galatolo, F., Cimino, M.G., Campisi, G., Di Fede, O., 2023. **Image-based screening of oral cancer via deep ensemble architecture**, in: 2023 IEEE Symposium Series on Computational Intelligence (SSCI), IEEE. pages 1572–1578. doi:10.13140/RG.2.2.24070.34880',
+      full_text: 'https://conf.papercept.net/images/temp/SSCI/files/0158.pdf'
     },
     {
       type: 'Conf',
       year: '2023',
       code: 'https://github.com/GiadaSimionato/HDHSim',
       skills: ['Drone', 'Swarm Intelligence', 'Hole Detection'],
-      contents: 'Simionato, G.; **Parola, M.**; and Cimino, M.; (2023). **Impressionist Hole Detection and Healing Using Swarms of Agents with Quantized Perception**. In Proceedings of 2023 IEEE Symposium Series on Computational Intelligence. (2023).'
+      contents: 'Simionato, G.; **Parola, M.**; and Cimino, M.; (2023). **Impressionist Hole Detection and Healing Using Swarms of Agents with Quantized Perception**. In Proceedings of 2023 IEEE Symposium Series on Computational Intelligence. (2023). pages 1213–1220',
+      full_text: 'https://conf.papercept.net/images/temp/SSCI/files/0310.pdf'
     },
     {
       type: 'Conf',
@@ -136,7 +137,7 @@ module.exports = {
       type: 'Preprint',
       year: '2021',
       skills: ['Information Retrieval', 'Computer Vision', 'Deep Leraning'],
-      contents: '**Parola, M.**, Nannini, A., & Poleggi, S. (2021). **Web image search engine based on LSH index and CNN Resnet50**. arXiv preprint arXiv:2108.13301.',
+      contents: '**Parola, M.**, Nannini, A., and Poleggi, S. (2021). **Web image search engine based on LSH index and CNN Resnet50**. arXiv preprint arXiv:2108.13301.',
       full_text: "https://arxiv.org/abs/2108.13301"
     }
   ]
