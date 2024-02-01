@@ -69,7 +69,8 @@ module.exports = {
     {
       title: 'Ph.D.',
       period: '01/11/2022 - present',
-      contents: 'Ph.D. in Information Engineering enrolled in the XXXVIII cycle of the PhD in Information Engineering at University of Pisa, Italy. (in progress)'
+      contents: 'Ph.D. in Information Engineering enrolled in the XXXVIII cycle of the PhD in Information Engineering at University of Pisa, Italy. (in progress)',
+      location: 'Pisa, Italy'
     },
     {
       title: 'Master degree',
