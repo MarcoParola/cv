@@ -32,55 +32,63 @@ module.exports = {
       title: 'Visiting Ph.D.',
       period: '01/01/2024 - 31/08/2024',
       skills: ['Deep Learning', 'Transformers', 'Thermal image', 'Computer Vision', 'Conditioning'],
-      contents: 'Visiting Ph.D. student at [Visual Analysis and Perception Laboratory (vap-lab)](https://vap.aau.dk/) at [Aalborg University](https://www.en.aau.dk/), Denmark.'
+      contents: 'Visiting Ph.D. student at [Visual Analysis and Perception Laboratory (vap-lab)](https://vap.aau.dk/) at [Aalborg University](https://www.en.aau.dk/).',
+      location: 'Aalborg, Denmark'
     },
     {
       title: 'Ph.D. candidate',
       period: '01/11/2022 - present',
       skills: ['Deep Learning', 'XAI', 'Medical Imaging', 'Computer Vision'],
-      contents: 'Ph.D. candidate enrolled in  Information Engineering phd program at [University of Pisa](https://www.dii.unipi.it/), Italy.'
+      contents: 'Ph.D. candidate enrolled in  Information Engineering phd program at [University of Pisa](https://www.dii.unipi.it/).',
+      location: 'Pisa, Italy'
     },
     {
       title: 'Research fellow',
       period: '01/05/2022 - 31/10/2022 ',
       skills: ['Deep Learning', 'XAI', 'Medical Imaging', 'Computer Vision'],
-      contents: 'Research fellow on "Decision support systems with explainable models for diagnosis and prognosis based on medical images" funded by MUR-PRIN REASONIG 2020 project, supervisors Prof. Gigliola Vaglini and Prof. Mario GCA Cimino; at [University of Pisa](https://www.dii.unipi.it/), Italy.'
+      contents: 'Research fellow on "Decision support systems with explainable models for diagnosis and prognosis based on medical images" funded by MUR-PRIN REASONIG 2020 project, supervisors Prof. Gigliola Vaglini and Prof. Mario GCA Cimino; at [University of Pisa](https://www.dii.unipi.it/).',
+      location: 'Pisa, Italy'
     },
     {
       title: 'Machine learning engineer',
       period: '15/10/2021 - 30/04/2022',
       skills: ['Python', 'Flask', 'MongoDB', 'Signal processing', 'Sensors', 'IoT', 'microservices', 'Docker'],
-      contents: 'Machine learning engineer at [Move Solutions](https://www.movesolutions.it) - Move S.r.l., Lucca, Italy. Part time. I developed microservices to be integrated into the Move Solutions platform architecture to provide ML analysis on sensor signals.'
+      contents: 'Machine learning engineer at [Move Solutions](https://www.movesolutions.it) - Move S.r.l.. Part time. I developed microservices to be integrated into the Move Solutions platform architecture to provide ML analysis on sensor signals.',
+      location: 'Lucca, Italy'
     },
     {
       title: 'Software developer ',
       period: '01/09/2019 - 15/06/2021',
       skills: ['.NET', 'ASP.NET', 'MSSQL', 'C#', 'web', 'microservices'],
-      contents: 'Software developer at [5Space](https://www.5space.it) S.n.c., Livorno, Italy. I worked part-time on OptGear project, a web application to perform optimization calculations for mechanical gears, which finds the best combination of gear parameters.'
+      contents: 'Software developer at [5Space](https://www.5space.it) S.n.c.. I worked part-time on OptGear project, a web application to perform optimization calculations for mechanical gears, which finds the best combination of gear parameters.',
+      location: 'Livorno, Italy'
     },
     {
       title: 'Software developer intern',
       period: '30/07/2018 - 31/01/2019',
       skills: ['.NET', 'ASP.NET', 'MSSQL', 'C#', 'web'],
-      contents: 'Software developer at [Labortori Archa](https://www.archa.it) S.r.l., Pisa, Italy. Internship. Implementation of LIMS (Laboratory Information Management System) using Microsoft technology stack.'
+      contents: 'Software developer at [Labortori Archa](https://www.archa.it) S.r.l.. Internship. Implementation of LIMS (Laboratory Information Management System) using Microsoft technology stack.',
+      location: 'Pisa, Italy'
     }
   ],
   education: [
     {
       title: 'Ph.D.',
       period: '01/11/2022 - present',
-      contents: 'Ph.D. in Information Engineering enrolled in the XXXVIII cycle of the PhD in Information Engineering at University of Pisa, Italy. (in progress)',
+      contents: 'Ph.D. in Information Engineering enrolled in the XXXVIII cycle of the PhD in Information Engineering at University of Pisa. (in progress)',
       location: 'Pisa, Italy'
     },
     {
       title: 'Master degree',
       period: '15/10/2019 - 18/02/2022',
-      contents: 'Master degree in Artificial Intelligence and Data Engineering at University of Pisa, Italy. Mark: 110/110'
+      contents: 'Master degree in Artificial Intelligence and Data Engineering at University of Pisa. Mark: 110/110',
+      location: 'Pisa, Italy'
     },
     {
       title: 'Bachelor degree',
       period: '08/11/2015 - 14/10/2019',
-      contents: 'Bachelor degree in Computer Engineering at University of Pisa, Italy. Mark: 97/110'
+      contents: 'Bachelor degree in Computer Engineering at University of Pisa. Mark: 97/110',
+      location: 'Pisa, Italy'
     }
   ],
   publication: [
