@@ -65,7 +65,7 @@
         {{#each education}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
             <div class="col-md-2 pt-1">
-                {{ period }}
+                {{ period }}<br>
                 {{#if location}}
                         <i class="fa-solid fa-location-dot" style="color: #373737;"></i> {{ location }}
                 {{/if}}
@@ -104,7 +104,7 @@
         {{#each positions}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
             <div class="col-md-2 pt-1">
-                {{ period }}
+                {{ period }}<br>
                 {{#if location}}
                         <i class="fa-solid fa-location-dot" style="color: #373737;"></i> {{ location }}
                 {{/if}}
