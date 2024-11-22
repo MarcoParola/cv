@@ -30,17 +30,17 @@ module.exports = {
   positions: [
     {
       title: 'Visiting Ph.D.',
+      period: '01/11/2024 - present',
+      skills: ['Deep Learning', 'Patient monitoring', 'Medical Imaging', 'Computer Vision', 'Video analysis'],
+      contents: 'Visiting Ph.D. student at [DREAM - Research on Embedded Architecture and Multisensor - research team](http://www.institutpascal.uca.fr/index.php/en/dream) at [Insitut Pascal](http://www.institutpascal.uca.fr/index.php/en/), [Université Clermont Auvergne](https://www.uca.fr/).',
+      location: 'Clermont-Ferrant, France'
+    },
+    {
+      title: 'Visiting Ph.D.',
       period: '01/01/2024 - 31/08/2024',
       skills: ['Deep Learning', 'Transformers', 'Thermal image', 'Computer Vision', 'Conditioning'],
       contents: 'Visiting Ph.D. student at [Visual Analysis and Perception Laboratory (vap-lab)](https://vap.aau.dk/) at [Aalborg University](https://www.en.aau.dk/).',
       location: 'Aalborg, Denmark'
-    },
-    {
-      title: 'Ph.D. candidate',
-      period: '01/11/2022 - present',
-      skills: ['Deep Learning', 'XAI', 'Medical Imaging', 'Computer Vision'],
-      contents: 'Ph.D. candidate enrolled in  Information Engineering phd program at [University of Pisa](https://www.dii.unipi.it/).',
-      location: 'Pisa, Italy'
     },
     {
       title: 'Research fellow',
@@ -93,6 +93,14 @@ module.exports = {
   ],
   publication: [
     {
+      type: 'Journal',
+      year: '2024',
+      code: 'https://github.com/MarcoParola/oral2',
+      skills: ['Object Detection', 'Medical Imaging', 'Deep Leraning', 'CBR', 'Oral Cancer'],
+      contents: '**Parola, M.**, Galatolo, F., La Mantia, G., Cimino, M.G., Campisi, G., Di Fede, O., 2023. **Image-based screening of oral cancer via deep ensemble architecture**, in: 2023 IEEE Symposium Series on Computational Intelligence (SSCI), IEEE. pages 1572–1578. doi:10.13140/RG.2.2.24070.34880',
+      full_text: 'https://www.sciencedirect.com/science/article/pii/S0895611124001101'
+    },
+    {
       type: 'Conf',
       year: '2023',
       code: 'https://github.com/MarcoParola/detection_framework',
@@ -107,14 +115,6 @@ module.exports = {
       skills: ['Drone', 'Swarm Intelligence', 'Hole Detection'],
       contents: 'Simionato, G.; **Parola, M.**; and Cimino, M.; (2023). **Impressionist Hole Detection and Healing Using Swarms of Agents with Quantized Perception**. In Proceedings of 2023 IEEE Symposium Series on Computational Intelligence. (2023). pages 1213–1220',
       full_text: 'https://conf.papercept.net/images/temp/SSCI/files/0310.pdf'
-    },
-    {
-      type: 'Conf',
-      year: '2023',
-      code: 'https://github.com/MarcoParola/torre-clima',
-      skills: ['Regression', 'Stuctural Health Monitoring', 'Deep Leraning', 'Sensors', 'Tower of Pisa'],
-      contents: '**Parola, M.**; Dirrhami, H.; Cimino, M. and Squeglia, N. (2023). **Effects of Environmental Conditions on Historic Buildings: Interpretable Versus Accurate Exploratory Data Analysis**. In Proceedings of the 12th International Conference on Data Science, Technology and Applications - DATA; ISBN 978-989-758-664-4; ISSN 2184-285X, SciTePress, pages 429-435. DOI: 10.5220/0012119700003541',
-      full_text: 'https://www.scitepress.org/PublicationsDetail.aspx?ID=9NdCzCTVPKA=&t=1'
     },
     {
       type: 'Book chap',
